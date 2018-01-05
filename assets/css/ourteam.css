@@ -1,0 +1,38 @@
+.team_person {
+	margin:0 20px 20px;
+	display: inline-block;
+}
+
+.team_person .avatar {
+	overflow: hidden;
+	width: 250px;
+	height: 250px;
+}
+
+.team_person h5, h5 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	color: #333;
+	margin: 10px 0;
+}
+
+.team_person span ,span {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.25em;
+	color: #C8F7DF;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: box-shadow 1s ease-in-out;
+}
+
+.team_person .avatar img {
+	width: 100%;
+	display: block;
+	height: auto;
+	border: 1px solid #40FFBC;
+	border-radius: 5px;
+}
+
+.developer:hover {
+	box-shadow: 5px 9px 9px 0px rgba(0,0,0, 0.55);
+}

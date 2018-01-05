@@ -1,0 +1,46 @@
+@import url('bootstrap.css');
+@import url('reset.css');
+@import url('font-awesome.css');
+@import url('header.css');
+@import url('thumbnails.css');
+@import url('fonts.css');
+@import url('post.css');
+@import url('content.css');
+@import url('buttons.css');
+@import url('ourteam.css');
+@import url('portfolio.css');
+@import url('pricing-table.css');
+@import url('testimonials.css');
+@import url('owl.carousel.css');
+
+body,html {
+	background: #fff;
+	height: 100%;
+}
+
+div.wrap .container-fluid {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+div p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 29px;	
+	font-size: 1.3em;
+	text-align: center;
+	margin-bottom: 25px;
+} 
+
+div h1 {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 40px;	
+	font-size: 1.75em;
+	margin-bottom: 50px;
+}
+
+h3 {
+	margin: 50px 0 40px 0;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 50px;
+}
+

@@ -1,0 +1,177 @@
+.thumbnails {
+	padding:100px 0;
+	background: #F7F7F7;
+}
+
+.thumbnails .header h2 {
+	font-size:4em;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+	position: relative;
+}
+
+.thumbnails .header h2:after {
+	content: '';
+	height: 1px;
+	width: 190px;
+	display: block;
+	background: #333;
+	margin: 20px auto;
+}
+
+.thumbnails .header p {
+	max-width:650px;
+	display: block;
+	margin: 0 auto 70px auto;
+	color: #4C4C4C;
+	text-align: center;
+	line-height: 1.2em;
+	font-size:3em;
+}
+
+.thumbnails .phone-mockup {
+	margin: 0 auto;
+}
+
+.thumbnails .phone-mockup img {
+	display: block;
+	width: 300px;
+}
+
+.thumbnails .service-list li {
+	padding-left:70px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.thumbnails .service-list li h4 {
+	font-size: 1.2em;
+	color:#333;
+	margin-bottom:15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	line-height: 39px;
+}
+
+.thumbnails .service-list li p {
+	color: #4C4C4C;
+	line-height: 1.15em;
+	font-size: 1em;
+	text-align: justify;
+}
+
+.thumbnails .service-list li .icon {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left:5px;
+	top:0px;
+	border-radius: 100px;
+	color: #2bc0c1;
+	font-size: 2.4em;
+	text-align: center;
+	line-height: 48px;
+}
+
+.thumbnails .service-list li:hover .icon {
+	box-shadow: 0 0 0 3px #2bc0c1, 0 0 0 4px #2bc0c1;
+	color: #fff;
+	background: #2bc0c1;
+	transition: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+
+.thumbnails .service-list li .icon {
+	position: static;
+	display: block;
+	margin: 0 auto 15px auto;
+}
+
+.thumbnails .service-list li h4, .thumbnails .service-list li p,  {
+  	text-align: justify;
+}
+
+.thumbnails .service-list li {
+  	padding: 0 35px;
+}
+
+.header-panel--any-project {
+  	width: 100%;
+    height: auto;
+}
+
+.header-panel>h1, h3 {
+  	font-size: 85%;
+  	margin: 10px 0;
+  	line-height: 27px;
+}
+
+.header-panel>h3 {
+  	font-size: 65%;
+  	margin: 10px 0;
+  	line-height: 27px;
+}
+
+.flip_container {
+	width: 50%;
+  	margin: 40px auto 0 auto;
+}
+
+.flip {
+  	height: 120%;
+}
+
+}
+
+@media screen and (max-width: 992px){
+
+.flip_container {
+    width: 50%;
+    margin: 40px auto 0 auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
